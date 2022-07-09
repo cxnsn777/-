@@ -1,0 +1,28 @@
+body{
+    font-family: "宋体";
+}
+h3{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-indent: 2em;
+}
+.p1{
+    font-size: 12px;
+    color: rgb(179,81,106);
+}
+span{
+    color: #E10FC8;
+    text-decoration: underline;
+}
+.word{
+    font-weight: 700;
+    font-style: italic;
+}
+ul{
+    list-style-type: circle;
+    width: 1000px;
+}
+
+ 

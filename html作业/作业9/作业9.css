@@ -1,0 +1,21 @@
+body{
+    background: url(./img/m.jpg) fixed;
+    background-size: cover;
+}
+div{
+    background-color: rgba(155,119,95,.5)
+}
+h1{
+    text-align: center;
+    color: #FEFCCB;
+}
+p{
+    line-height: 48px;
+    text-indent: 2em;
+    font-family: "宋体";
+    color: aliceblue;
+}
+span{
+    font-weight: 700;
+    color: #FFF9A7;
+}

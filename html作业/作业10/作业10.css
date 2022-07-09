@@ -1,0 +1,27 @@
+ul li:nth-child(odd){
+    color: #FF763F;
+}
+ul li:nth-child(even){
+    color: #258448;
+}
+p{
+    width: 400px;
+    /* user-select: none; */
+}
+span{
+    color: pink;
+    cursor: default;
+}
+span:hover{
+    color: brown;
+    font-weight: 700;
+}
+div{
+    width: 200px;
+    height:200px;
+    background: url(images/章鱼.png);
+    background-size: cover;
+}
+div:hover{
+    background: url(images/果冻.png);
+}

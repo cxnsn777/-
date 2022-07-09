@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<body>
+    <form action="" method="get">
+        <table width="400px" height="600px" bgcolor="powderblue" align="center" cellspacing="15px">
+            <thead>
+                <tr>
+                    <th colspan="2">会员注册表单</th>
+                </tr>
+             </thead>
+                <tr>
+                    <td>*姓名:</td>
+                    <td><input type="text" name="username" placeholder="请输入您的名字" required></td>
+                </tr>
+                <tr>
+                    <td>性别:</td>
+                    <td>
+                        <input type="radio" name="sex" id="sex1" value="男"><label for="sex1">男</label>
+                        <input type="radio" name="sex" id="sex2" value="女"><label for="sex2">女</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>出生日期:</td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>手机号码:</td>
+                    <td>
+                        <select name="num">
+                        <option value="+86">+86</option>
+                        <option value="+78">+78</option>
+                        <option value="+89" selected>+89</option>
+                    </select>
+                    <input type="text" name="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>您的邮箱:</td>
+                    <td>
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>您的喜好:</td>
+                    <td>
+                        <input type="checkbox" value="上网" name="hobby">上网
+                        <input type="checkbox" value="逛街" name="hobby">逛街
+                        <input type="checkbox" value="学习" name="hobby">学习
+                    </td>
+                </tr>
+                <tr>
+                    <td>您的地址:</td>
+                    <td>
+                        <select name="home">
+                            <option value="上海">上海</option>
+                            <option value="北京">北京</option>
+                            <option value="广州">广州</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>您的要求:</td>
+                    <td>
+                        <textarea name="requirement" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>上传附件:</td>
+                    <td><input type="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit">
+                        <input type="reset" value="清空"><br><br>
+                        *为必填字段
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
